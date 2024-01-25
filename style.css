@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display:grid;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+h1 {
+    color: #fff;
+    text-align:auto;
+    margin: top ; ;
+    margin-bottom:auto ;
+    font-family:'Times New Roman', Times, serif
+
+}
+
+form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+@media screen and (max-width: auto) {
+    form {
+        padding: auto;
+    }
+    h1{
+        font-size:auto;
+    }
+
+    input, button {
+        width: auto;
+        padding: auto;
+        margin-bottom: auto;
+    }
+
+    p {
+        font-size: auto;
+        margin-top: au;
+    }
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+p {
+    text-align: center;
+    font-size:1.5em;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+button {
+    background-color: #5C6BC0;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: #3F51B5;
+}
